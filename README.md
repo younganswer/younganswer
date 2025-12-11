@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 🧑‍🎓 Graduated from 42Seoul as a 7th Cadet (Apr 2022 - Mar 2024, Currently alumni) <br />
 
 You can check out my LinkedIn profile and Blog <br />
-↵
+↙️
 
 <br />
 
