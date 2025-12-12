@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-🧑‍💻 Currently working as a Backend Engineer at ENKI WhiteHat (Nov 2025 - Present) <br />
+🧑‍💻 Currently working as a Backend Engineer Intern at ENKI WhiteHat (Nov 2025 - Present) <br />
 🧑‍🎓 Graduated from Kookmin University, Bachelor of Computer Science (Mar 2019 - Feb 2025) <br />
 🧑‍🎓 Graduated from 42Seoul as a 7th Cadet (Apr 2022 - Mar 2024, Currently alumni) <br />
 
