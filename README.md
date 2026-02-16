@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-🧑‍💻 Currently working as a Backend Engineer Intern at ENKI WhiteHat (Nov 2025 - Present) <br />
+🧑‍💻 Worked as a Backend Engineer Intern at ENKI WhiteHat (Nov 2025 - Feb 2026) <br />
 🧑‍🎓 Graduated from Kookmin University, Bachelor of Computer Science (Mar 2019 - Feb 2025) <br />
 🧑‍🎓 Graduated from 42Seoul as a 7th Cadet (Apr 2022 - Mar 2024, Currently alumni) <br />
 
@@ -103,27 +103,28 @@ You can check out my LinkedIn profile and Blog <br />
 
 ### [OFFen Camp @ ENKI WhiteHat](https://www.enki.co.kr/product/offencamp)
 
--   A service that delivers security training environments in a SaaS model
--   Designing and implementing backend features using Nest.js across Controller → Application (Facade) → Domain → Entity/Repository layers, strengthening practical experience with DDD and Clean Architecture
--   Supporting service readiness by reviewing database designs and standardizing APIs to ensure reliable quality at launch
+- A service that delivers security training environments in a SaaS model
+- Designing and implementing backend features using Nest.js across Controller → Application (Facade) → Domain → Entity/Repository layers, strengthening practical experience with DDD and Clean Architecture
+- Supporting service readiness by reviewing database designs and standardizing APIs to ensure reliable quality at launch
+- Main ENKI backend architecture and implementation work is documented in [clean-ddd](https://github.com/younganswer/clean-ddd)
 
 ### [You know what?](https://github.com/kookmin-sw/capstone-2024-13)
 
--   An AI-based voice diary service, responsible for backend development and cloud infrastructure
--   Identified major security vulnerabilities including NoSQL Injection, IDOR, and Origin spoofing, and resolved them by applying network ACLs and RBAC to enhance security
--   Improved code reusability, scalability, and service maintainability by integrating duplicated DTOs and repositories into an abstraction layer with dependency injection
+- An AI-based voice diary service, responsible for backend development and cloud infrastructure
+- Identified major security vulnerabilities including NoSQL Injection, IDOR, and Origin spoofing, and resolved them by applying network ACLs and RBAC to enhance security
+- Improved code reusability, scalability, and service maintainability by integrating duplicated DTOs and repositories into an abstraction layer with dependency injection
 
 ### [OurDongbang](https://github.com/UuuuuuuDong/ourdongbang)
 
--   A platform aimed at improving club management and operations; led backend development and cloud infrastructure setup
--   Designed and implemented RESTful APIs and systematically documented APIs using Swagger
--   Optimized query performance by converting full table scans into B+Tree index scans using MongoDB ObjectId timestamps for startAt ~ endAt range queries, achieving approximately 70% faster response times
+- A platform aimed at improving club management and operations; led backend development and cloud infrastructure setup
+- Designed and implemented RESTful APIs and systematically documented APIs using Swagger
+- Optimized query performance by converting full table scans into B+Tree index scans using MongoDB ObjectId timestamps for startAt ~ endAt range queries, achieving approximately 70% faster response times
 
 ### [42Seoul](https://github.com/younganswer/42cursus)
 
--   Completed 14 C/C++-based system level projects, strengthening core computer science fundamentals and practical problem solving skills
--   Enhanced collaboration and communication capabilities through peer led studies and team based development projects
--   Deepened backend development expertise through Docker focused personal projects and web service development in a team environment
+- Completed 14 C/C++-based system level projects, strengthening core computer science fundamentals and practical problem solving skills
+- Enhanced collaboration and communication capabilities through peer led studies and team based development projects
+- Deepened backend development expertise through Docker focused personal projects and web service development in a team environment
 
 <br />
 
@@ -131,45 +132,45 @@ You can check out my LinkedIn profile and Blog <br />
 
 ### [Cloud computing](https://github.com/younganswer/Cloud-computing)
 
--   Demonstrated a fully-managed microservice architecture using AWS ECS Fargate, achieving scalability, reliability, and cost efficiency through containerization and serverless deployment.
--   Integrated AWS services such as Application Load Balancer for traffic distribution and CloudWatch for centralized monitoring, with automated scaling via ECS Service Auto Scaling to ensure high availability and optimal resource utilization.
--   Streamlined operations by eliminating EC2 management, providing a robust foundation for modern cloud-native applications.
+- Demonstrated a fully-managed microservice architecture using AWS ECS Fargate, achieving scalability, reliability, and cost efficiency through containerization and serverless deployment.
+- Integrated AWS services such as Application Load Balancer for traffic distribution and CloudWatch for centralized monitoring, with automated scaling via ECS Service Auto Scaling to ensure high availability and optimal resource utilization.
+- Streamlined operations by eliminating EC2 management, providing a robust foundation for modern cloud-native applications.
 
 ### [FileProcessing Report Tester](https://github.com/KMU-File-Processing/File-Processing-Report-Tester)
 
--   An automated testing tool for evaluating student reports in the FileProcessing course
--   Developed using C++ for core functionalities, shell scripting for automation, and GitHub Actions for CI/CD integration
--   Addressed student concerns around vague assignment instructions and unclear evaluation criteria by rewriting task documentation and implementing an automated grading system using GitHub Actions CI
+- An automated testing tool for evaluating student reports in the FileProcessing course
+- Developed using C++ for core functionalities, shell scripting for automation, and GitHub Actions for CI/CD integration
+- Addressed student concerns around vague assignment instructions and unclear evaluation criteria by rewriting task documentation and implementing an automated grading system using GitHub Actions CI
 
 ### [B-Tree](https://github.com/younganswer/B-Tree)
 
--   B-Tree source code originally used in the FileProcessing Report Tester project.
--   Provides a C++ implementation of the B-Tree data structure, supporting insertion, deletion, and search operations.
--   Designed similar to the C++ Standard Template Library (STL), with iterator support but without allocators and deallocators.
+- B-Tree source code originally used in the FileProcessing Report Tester project.
+- Provides a C++ implementation of the B-Tree data structure, supporting insertion, deletion, and search operations.
+- Designed similar to the C++ Standard Template Library (STL), with iterator support but without allocators and deallocators.
 
 ### [@42Cursus](https://github.com/younganswer/42cursus)
 
--   [ft_transcendence](https://github.com/Last-transcendence/ft_transcendence)
-    -   A full-stack web application, featuring real-time multiplayer gaming and social networking functionalities.
-    -   Developed backend services using NestJS and socket.io, implementing RESTful APIs, WebSocket communication, and OAuth2 authentication.
-    -   Designed and managed PostgreSQL database schemas to ensure efficient data storage and retrieval.
--   [inception](https://github.com/younganswer/inception)
-    -   Broadened system administration knowledge by building Docker images, composing multi-container setups, and configuring networks and volumes.
--   [webserv](https://github.com/42-webserver/webserv)
-    -   Developed an HTTP server in C++ inspired by Nginx, implementing core features such as CGI support.
-    -   Supports HTTP/1.1 protocol and non-blocking I/O using kqueue for efficient performance.
-    -   Reproduced most of Nginx's essential functionalities in a custom server implementation.
--   [miniRT](https://github.com/Younganswer/miniRT)
-    -   A simple ray tracing program with miniLibX that generates 3D scenes from a scene description file.
-    -   Implemented core ray tracing algorithms including sphere and plane intersection, lighting models (ambient, diffuse, specular), shadows, and reflections.
--   [cub3D](https://github.com/younganswer/cub3d)
-    -   A simple ray casting game inspired by Wolfenstein 3D using miniLibX.
-    -   Implemented a 2D ray casting algorithm for rendering a 3D environment from a 2D map.
--   [minishell](https://github.com/younganswer/minishell)
-    -   A simple Unix shell implementation in C inspired by bash.
-    -   Supports built-in commands, environment variable management, input/output redirection, and piping.
-    -   Does not support recursive calls or shell script execution; therefore, parsing techniques such as LL, LR, and Pushdown Automaton (PDA) are not used.
--   [philosopher](https://github.com/younganswer/42cursus/philosopher)
-    -   A solution to the Dining Philosophers by Dijkstra problem.
-    -   Implemented algorithms to prevent livelock, deadlock, and starvation in multi-threaded and multi-process environments using mutexes and semaphores.
-    -   Developed using C and POSIX threads to manage concurrent philosopher processes.
+- [ft_transcendence](https://github.com/Last-transcendence/ft_transcendence)
+    - A full-stack web application, featuring real-time multiplayer gaming and social networking functionalities.
+    - Developed backend services using NestJS and socket.io, implementing RESTful APIs, WebSocket communication, and OAuth2 authentication.
+    - Designed and managed PostgreSQL database schemas to ensure efficient data storage and retrieval.
+- [inception](https://github.com/younganswer/inception)
+    - Broadened system administration knowledge by building Docker images, composing multi-container setups, and configuring networks and volumes.
+- [webserv](https://github.com/42-webserver/webserv)
+    - Developed an HTTP server in C++ inspired by Nginx, implementing core features such as CGI support.
+    - Supports HTTP/1.1 protocol and non-blocking I/O using kqueue for efficient performance.
+    - Reproduced most of Nginx's essential functionalities in a custom server implementation.
+- [miniRT](https://github.com/Younganswer/miniRT)
+    - A simple ray tracing program with miniLibX that generates 3D scenes from a scene description file.
+    - Implemented core ray tracing algorithms including sphere and plane intersection, lighting models (ambient, diffuse, specular), shadows, and reflections.
+- [cub3D](https://github.com/younganswer/cub3d)
+    - A simple ray casting game inspired by Wolfenstein 3D using miniLibX.
+    - Implemented a 2D ray casting algorithm for rendering a 3D environment from a 2D map.
+- [minishell](https://github.com/younganswer/minishell)
+    - A simple Unix shell implementation in C inspired by bash.
+    - Supports built-in commands, environment variable management, input/output redirection, and piping.
+    - Does not support recursive calls or shell script execution; therefore, parsing techniques such as LL, LR, and Pushdown Automaton (PDA) are not used.
+- [philosopher](https://github.com/younganswer/42cursus/philosopher)
+    - A solution to the Dining Philosophers by Dijkstra problem.
+    - Implemented algorithms to prevent livelock, deadlock, and starvation in multi-threaded and multi-process environments using mutexes and semaphores.
+    - Developed using C and POSIX threads to manage concurrent philosopher processes.
