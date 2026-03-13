@@ -63,9 +63,9 @@ LinkedIn 프로필 및 Blog에서 상세 이력을 확인하실 수 있습니다
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
 <br />
 
-<!-- Cloud Engineering -->
+<!-- Infrasturcture & Cloud -->
 
-<strong>Cloud Engineering</strong><br />
+<strong>Infrasturcture & Cloud</strong><br />
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
