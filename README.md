@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 🧑‍🎓 국민대학교 컴퓨터공학부 졸업 (2019.03 - 2025.02) <br />
 🧑‍🎓 42Seoul 7기 Cadet 수료 (2022.04 - 2024.03, 현재 alumni) <br />
 
-![개인 Blog](https://younganswer.pages.dev/)에서 보다 다양하고 자세한 내용들을 확인하실 수 있습니다 :)
+[개인 Blog](https://younganswer.pages.dev/)에서 보다 다양하고 자세한 내용들을 확인하실 수 있습니다 :)
 
 <br />
 
