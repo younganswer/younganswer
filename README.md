@@ -121,7 +121,7 @@ LinkedIn 프로필 및 Blog에서 상세 이력을 확인하실 수 있습니다
 ### [OFFen Camp @ ENKI WhiteHat](https://www.enki.co.kr/product/offencamp)
 
 - SaaS 모델 기반 보안 학습/훈련 환경 제공 서비스
-- Controller → Application(Facade) → Domain ← Repository 계층 전반에서 Nest.js 기반 백엔드 기능 설계 및 구현, DDD와 Clean Architecture 실무 경험 강화
+- Presentation → Application → Domain ← Infrastructure 계층 전반에서 Nest.js 기반 백엔드 기능 설계 및 구현, DDD와 Clean Architecture 실무 경험 강화
 - 데이터베이스 설계 검토 및 API 표준화 수행을 통한 출시 시점 서비스 품질 안정화 지원
 - 관련된 주요 백엔드 아키텍처 및 구현 내용은 [clean-ddd](https://github.com/younganswer/clean-ddd)에서 확인하실 수 있습니다
 
