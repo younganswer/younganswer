@@ -19,6 +19,7 @@ Here are some ideas to get you started:
 🧑‍🎓 42Seoul 7기 Cadet 수료 (2022.04 - 2024.03, 현재 alumni) <br />
 
 LinkedIn 프로필 및 Blog에서 상세 이력을 확인하실 수 있습니다 :)
+
 ↙️
 
 <br />
