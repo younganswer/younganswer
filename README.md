@@ -170,22 +170,27 @@ Here are some ideas to get you started:
     - NestJS와 socket.io 기반 백엔드 서비스 개발, RESTful API·WebSocket 통신·OAuth2 인증 구현
     - 효율적 데이터 저장/조회 보장을 위한 PostgreSQL 데이터베이스 스키마 설계 및 운영
 - [inception](https://github.com/younganswer/inception)
-    - Docker 이미지 빌드, 멀티 컨테이너 구성, 네트워크/볼륨 설정을 통한 시스템 운영 역량 확장
-- [webserv](https://github.com/42-webserver/webserv)
-    - Nginx에서 영감을 받은 C++ 기반 HTTP 서버 개발, CGI 지원 등 핵심 기능 구현
-    - HTTP/1.1 프로토콜 지원 및 kqueue 기반 non-blocking I/O 적용으로 성능 효율 확보
-    - Nginx 핵심 기능 다수를 커스텀 서버로 재현
+    - 개인 VM 위에서 MariaDB·WordPress·Nginx를 독립 container로 구동하는 multi-container infrastructure 프로젝트
+    - 서비스별 Dockerfile·setup script를 작성하고 Compose network·persistent volume으로 연결
+- [webserv](https://github.com/younganswer/webserv)
+    - Nginx의 configuration model·virtual host·location directive 동작을 최대한 유사하게 구현한 C++98 기반 HTTP server 팀 프로젝트
+    - server·location directive를 typed element로 해석해 physical·virtual server topology, Host 기반 server 선택과 default fallback을 구현
+    - kqueue 기반 non-blocking event loop로 HTTP 요청 수신과 응답 처리를 연결하고, allow_method·CGI 관련 configuration 동작을 보완
 - [miniRT](https://github.com/Younganswer/miniRT)
-    - miniLibX 기반 간단한 ray tracing 프로그램, scene description 파일로부터 3D 장면 생성
-    - sphere/plane intersection, ambient/diffuse/specular 조명 모델, 그림자, 반사 등 핵심 ray tracing 알고리즘 구현
+    - miniLibX 기반 ray-tracing renderer로 scene description 파일에서 3D 장면을 생성
+    - sphere·plane·cylinder intersection, ambient·diffuse·specular 조명 모델, 그림자·반사 등 핵심 ray-tracing 알고리즘 구현
+    - camera에서 pixel별 ray를 생성하고 최근접 교차점과 조명 계산을 거쳐 scene을 렌더링
 - [cub3D](https://github.com/younganswer/cub3d)
-    - miniLibX 기반 Wolfenstein 3D 스타일의 간단한 ray casting 게임 구현
-    - 2D 맵 기반 3D 환경 렌더링을 위한 2D ray casting 알고리즘 구현
+    - miniLibX 기반 Wolfenstein 3D 스타일의 ray-casting renderer 프로젝트
+    - 2D maze를 탐색 가능한 1인칭 화면으로 변환하도록 camera ray·DDA wall hit·perspective distance·texture sampling pipeline 구현
 - [minishell](https://github.com/younganswer/minishell)
-    - bash에서 영감을 받은 C 기반 간단한 Unix shell 구현
+    - C 기반 Unix shell 구현
     - built-in command, 환경 변수 관리, 입출력 리다이렉션, 파이프 기능 지원
-    - 재귀 호출 및 shell script 실행 미지원, 따라서 LL/LR/Pushdown Automaton(PDA) 기반 파싱 기법 미사용
+    - 입력을 token화·검증하고 pipe·redirection을 process·file descriptor 제어로 연결하는 interpreter pipeline 구현
 - [philosopher](https://github.com/younganswer/42cursus/philosopher)
     - Dijkstra의 Dining Philosophers 문제 해결 프로젝트
     - mutex 및 semaphore를 활용해 multi-thread/multi-process 환경의 livelock, deadlock, starvation 방지 알고리즘 구현
     - C와 POSIX threads 기반 동시성 philosopher 프로세스 제어 구현
+- [NetPractice](https://github.com/younganswer/42cursus/tree/main/net_practice)
+    - 가상 network topology에서 addressing·subnetting·routing을 구성하는 network configuration 프로젝트
+    - 10개 level에서 IP·subnet mask·gateway·routing table을 구성해 endpoint·Internet 연결성을 완성
